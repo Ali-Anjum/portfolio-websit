@@ -1,0 +1,514 @@
+html, body {
+    width: 100vw;
+    overflow-x: hidden;
+    color: var(--neutral_-d-grey);
+    line-height: 16px;
+    padding: 0;
+    margin: 0;
+
+}
+
+:root{
+    --primary : #4CAF4F;
+    --secondary: #263238;
+    --info: #2194F3;
+    --shade1: #43A046;
+    --shade2: #388E3B;
+    --shade3: #237D31;
+    --shade4: #1B5E1F;
+    --shade5: #103E13;
+    --neutral_black:#263238;
+    --neutral_-d-grey:#4D4D4D;
+    --neutral_grey:#717171;
+    --neutral_l_grey:#89939E;
+    --neutral-grey_blue:#ABBED1;
+    --neutral_silver:#F5F7FA;
+    --neutral_white : #fff;
+    --warning:#FBC02D;
+    --success:#2E7D31;
+    --error:#E53835;
+    --tint1:#66BB69 ;
+    --tint2:#81C784 ;
+    --tint3:#A5D6A7 ;
+    --tint4:#C8E6C9 ;
+    --tint5:#E8F5E9 ;
+    
+}
+
+
+.head1,
+.head2, 
+.head3,
+.head4{
+    font-size: 64px;
+    font-weight:700;
+    line-height: 74px;
+}
+.head2{
+    font-size: 36px;
+    line-height: 44px;
+}
+.head3{
+    font-size: 28px;
+    line-height: 36px;
+}
+.head4{
+    font-size: 20px;
+    line-height:  28px;
+}
+.body1{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: bold;
+}
+.body2{
+    font-size: 16px;
+    line-height: 24px;
+
+}
+.body3{
+    font-size: 14px;
+    line-height: 20px;
+}
+.body4{
+    font-size: 12px;
+    line-height: 16px;
+}
+.texts{
+    color: #212121;
+}
+.main-photo{
+    background: var(--neutral_silver);
+    color: var(--neutral_-d-grey);
+    margin-top: 30px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+.text-main-photo{
+    padding-right: 104px;
+}
+
+.span-main-photo{
+    color: var(--primary)
+}
+.logo{
+    background-color: var(--neutral_silver);
+}
+.margin-section{
+    padding-left: 144px;
+    padding-right: 144PX;
+    margin-bottom: 40px !important;
+}
+.margin-section-2{
+    padding-left: 144px;
+    padding-right: 144PX;
+    margin-bottom: 48px !important;
+}
+.padding-info{
+    padding-top:  64px ;
+    padding-bottom:64px ;
+}
+.stats{
+    color: var(--neutral_grey);
+}
+.stats-right{
+    margin-top: 40px;
+}
+.stat-padding-icon{
+    margin-right: 16px;
+}
+.icon-padding-right{
+    margin-right: 30px;
+}
+.pre-footer-div{
+    margin-top: 32px;
+    color: var(--neutral_black);
+}
+.pre-footer-btn{
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+.footer{
+    padding-left: 144px;
+    padding-right: 144PX;
+}
+/* acutal code now*/
+.unseen-text-img{
+    width: 442px;
+    height: 433px;
+}
+.icons-3{
+    padding: 24px 32px 24px 32px;
+}
+.register-now{
+    background: var(--primary);
+    color: var(--neutral_white);
+    padding: 16px 32px 16px 32px !important;
+    border: none;
+    border-radius: 6px;
+
+}
+.footer{
+    background-color: var(--neutral_black);
+}
+
+.footer-copyright{
+    color: var(--neutral_silver);
+
+    list-style-type: none; /* Remove bullets */
+}
+.heading-footer{
+    color: var(--neutral_white);
+    font-size: 14px;
+    text-align: left;
+}
+
+
+.heading-footer {
+    color: var(--neutral_white);
+    font-size: 14px;
+    text-align: left; /* Ensure text is left-aligned */
+}
+.form-sign-up{
+    color: #D9DBE1;
+    background: hsl(200, 9%, 35%);
+    border: none ;
+
+}
+input::placeholder {
+    color: var(--neutral_white); 
+    padding-left: 5px;/* Replace with the color you prefer */
+}
+.header-link{
+    color: var(--neutral_-d-grey);
+    font-weight: bold;
+}
+.pfooter{
+    padding-top: 40px;
+}
+
+
+/* Style the image */
+
+.stats-info-img{
+    width: 48px; 
+    height: 48px;
+}
+/* Style the box */
+.overlay-box {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.main-photo-heading-pb{
+    margin-top: 16px;
+}
+.photo-main-img{
+    width: 391px;
+    height: 407px;
+}
+.section-info-margin-first{
+    margin-bottom: 8px;
+}
+.section-info-margin-second{
+    margin-bottom: 16px;
+}
+.member-org{
+    margin-top:  16px;
+    margin-bottom: 8px;
+
+}
+.btn-margin{
+    margin-top: 32px;
+}
+.stats-info{
+    margin-top: 8px;
+}
+
+.stats-info-lower{
+   margin-top:  40px;
+
+}
+.pre-footer-p-text{
+    margin-top: 8px;
+}
+
+
+/* Style the link inside the box */
+.overlay-box a {
+    color: #fff;
+    text-decoration: none;
+}
+.bgg{
+
+    color: var(--primary);
+}
+.bggs{
+    width: 368px;
+    height: 286px;
+}
+.pointer{
+    cursor: pointer;
+}
+.logo-img{
+    width: 154.49px;
+    cursor: pointer;
+}
+.top-section-2{
+    margin-top: 8px;
+    margin-bottom: 16px ;
+}
+.img-3-mem{
+    width: 65px; 
+    height: 56px;
+}
+
+
+
+/* breakpoints*/
+@media (min-width:850px)  and (max-width: 1300px) {
+    .head1{
+        line-height: 44.55px;
+        font-size: 44.55px;
+    }
+    .body2{
+        line-height: 16.57px;
+        font-size: 11.14px;
+
+    }
+    .margin-section,.margin-section-2{
+        padding-left: 100px;
+        padding-right: 100px;
+        margin-bottom: 28px !important;
+    }
+    .margin-section-2{
+        margin-bottom: 33.41px !important;
+    }
+    .logo{
+        background: var(--neutral_white);
+    }
+    .main-photo{
+        padding-top: 67px;
+        padding-bottom: 67px;
+    }
+    .register-now{
+        padding: 14px 32px 14px 32px !important;
+        border-radius: 4px; 
+    }
+    .photo-main-img{
+        width: 272px;
+    }
+    .head2{
+        font-size: 25.06px;
+        line-height: 30.6px;
+    }
+    .head3{
+        font-size: 19.49px;
+        line-height: 25.1px;
+    }
+    .head4{
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .body2{
+        font-size: 9.74px;
+        line-height: 13.9px;
+    }
+    .section-info-margin-first{
+        margin-bottom: 6px !important;
+    }
+    .section-info-margin-second{
+        margin-bottom: 11px;
+        margin-top: 0;
+    }
+    .icons-3{
+        padding: 17px 22px 17px 22px;
+    }
+    .member-org{
+        margin-top: 11px;
+        margin-bottom: 4px;
+    }
+    .unseen-text-img{
+        width: 307px; ;
+        height: 301px; ;
+    }
+    .btn-margin{
+        margin-top: 22px;
+    }
+    .main-photo{
+        padding-top: 44px;
+        padding-bottom: 44px;
+    }
+    .stats-info{
+        margin-top: 6px;
+    }
+    .stat-padding-icon{
+        margin-right: 11px;
+    }
+    .stats-info-img{
+        width: 33.41px;
+        height: 33.41px;
+    }
+    .stats-info-lower{
+        margin-top:  27px;
+    }
+    .pre-footer-p-text{
+        margin-top: 4px;
+        margin-bottom: 5.34px;  
+    }
+    .bggs{
+        width: 25vw;
+        height: 199px;
+    }
+    .pre-footer-btn{
+        margin-bottom: 22px;
+        margin-top: 22px;
+    }
+
+    .logo-img{
+        width: 107.49px;
+    }
+    
+    .main-photo-heading-pb{
+        margin-top: 22.27px;
+    }
+    .main-photo{
+        margin-top: 30px;
+        padding-top: 22px;
+        padding-bottom: 22px;
+    }
+    .text-main-photo{
+        padding-right: 72px;
+    }
+    .top-section-2{
+        margin-top: 6px;
+        margin-bottom: 11.14px !important;
+    }
+    .img-3-mem{
+        width: 45px; 
+        height: 34px;
+    }
+    .pfooter{
+        padding-top: 30px;
+    }
+    
+    
+    
+    
+}
+ 
+@media (min-width:200px)  and (max-width:850px) {
+    .body2{
+        font-size: 0.334rem;
+        line-height: 8px;
+    }
+    .head1{
+        line-height: 21.37px;
+        font-size: 25.4px;
+    }
+    .head2{
+        font-size: 12.02px;
+        line-height: 15px;
+    }
+    .head3{
+        font-size: 9.35px;
+        line-height: 12px;
+    }
+    .body3{
+        font-size: 4.67px;
+        line-height: 6.7px;
+    }
+    .margin-section,.margin-section-2{
+        padding-left: 48.08px;
+        padding-right: 48.08px;
+        margin-bottom: 13px !important;
+    }
+    .margin-section-2{
+        margin-bottom: 22px !important;
+    }
+    .register-now{
+        padding: 8px 24px 8px 24px !important;
+        border-radius: 4px; 
+    }   
+     .logo-img{
+        width: 55px;
+    }
+    .main-photo-heading-pb{
+        margin-top: 5.34px;
+    }
+    .btn-margin{
+        margin-top: 10px;
+    }
+    .photo-main-img{
+        width: 391px;
+        height: 407px;
+    }
+    .photo-main-img{
+        width: 130px;
+        height: 150px;
+    }
+    .top-section-2{
+        margin-top: 3px;
+        margin-bottom: 5.5px !important;
+    }
+    .section-info-margin-first{
+        margin-bottom: 2.67px !important;
+    }
+    .section-info-margin-second{
+        margin-bottom: 5.34px;
+        margin-top: 0;
+    }
+    .icons-3{
+        padding: 8px 11px 8px 11px;
+    }
+    .img-3-mem{
+        width: 21.7px; 
+        height: 18.7px;
+    }
+    .unseen-text-img{
+        width: 147px; ;
+        height: 144px; ;
+    }
+    .head2{
+        font-size: 12.02px;
+        line-height: 14.7px;
+    }
+    .member-org{
+        margin-top:  5px;
+        margin-bottom: 3px;
+    
+    }
+    .main-photo{
+
+        margin-top: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .pre-footer-btn{
+        margin-bottom: 11px;
+        margin-top: 11px;
+    }
+    .pfooter{
+        padding-top: 15px;
+    }
+    .stats-info-img{
+        width: 16px;
+        height: 16px;
+    }
+    .stat-padding-icon{
+        margin-right: 5px;
+    }
+
+
+    
+}
+.bggs{
+    width: 23vw;
+    height: 20vw;
+
+}
